@@ -9,26 +9,26 @@
   },
   {
     "id": 2,
-    "name": "李四",
-    "number": "1",
-    "position": "门将",
-    "group": "goalkeeper",
-    "avatar": ""
-  },
-  {
-    "id": 3,
-    "name": "王五",
-    "number": "4",
+    "name": "莫洋",
+    "number": "5",
     "position": "后卫",
     "group": "defender",
     "avatar": ""
   },
   {
+    "id": 3,
+    "name": "蓝煜",
+    "number": "10",
+    "position": "前锋",
+    "group": "forward",
+    "avatar": ""
+  },
+  {
     "id": 4,
-    "name": "赵六",
-    "number": "6",
-    "position": "中场",
-    "group": "midfielder",
+    "name": "赵润石",
+    "number": "19",
+    "position": "后卫",
+    "group": "defender",
     "avatar": ""
   },
   {
