@@ -381,17 +381,39 @@ a:hover {
 }
 
 .group-section {
-  margin-bottom: 2rem;
+  margin-bottom: 2.4rem;
 }
 
 .group-title {
-  display: inline-block;
-  margin-bottom: 1rem;
-  background: var(--team-blue);
-  color: var(--team-white);
-  font-size: 1.05rem;
-  border-radius: 0.55rem;
-  padding: 0.45rem 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.62rem;
+  margin: 0 0 1rem;
+  color: var(--team-blue);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.group-title::before {
+  content: "";
+  width: 4px;
+  height: 1.25em;
+  border-radius: 2px;
+  background: var(--team-red);
+}
+
+.roster-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  max-width: 940px;
+}
+
+.roster-card-item {
+  flex: 0 0 calc((100% - 60px) / 4);
+  max-width: calc((100% - 60px) / 4);
 }
 
 .roster-card,
@@ -406,13 +428,103 @@ a:hover {
 }
 
 .roster-card {
-  padding: 1rem;
-  height: 100%;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  border: 1px solid #e4e9f1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 18px rgba(20, 40, 70, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.roster-number {
-  color: var(--team-red);
+.roster-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 24px rgba(20, 40, 70, 0.16);
+}
+
+.roster-card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6px;
+  background: var(--team-red);
+}
+
+.roster-card-top {
+  position: relative;
+  height: 70%;
+  background: #f0f0f0;
+  overflow: hidden;
+}
+
+.roster-avatar-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roster-avatar-wrap .player-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.roster-avatar-wrap .bi-person-fill {
+  color: #c2c8d3;
+  font-size: 9rem;
+  line-height: 1;
+}
+
+.roster-jersey-number {
+  position: absolute;
+  left: 0.7rem;
+  top: 0.35rem;
+  font-family: "Teko", sans-serif;
+  font-size: 2.5rem;
   font-weight: 700;
+  color: rgba(26, 58, 107, 0.55);
+  line-height: 1;
+  z-index: 2;
+}
+
+.roster-card-info {
+  height: 30%;
+  padding: 0.95rem 0.85rem 1rem;
+  background: var(--team-white);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.7rem;
+}
+
+.roster-position-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: var(--team-red);
+  color: var(--team-white);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.48rem;
+  line-height: 1;
+}
+
+.roster-player-name {
+  margin: 0;
+  color: var(--team-blue);
+  font-size: 1.03rem;
+  font-weight: 700;
+  text-align: right;
+  line-height: 1.2;
 }
 
 .timeline-intro {
@@ -687,6 +799,15 @@ a:hover {
     left: 2px;
     right: auto;
   }
+
+  .roster-card-grid {
+    max-width: 700px;
+  }
+
+  .roster-card-item {
+    flex: 0 0 calc((100% - 40px) / 3);
+    max-width: calc((100% - 40px) / 3);
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -704,5 +825,30 @@ a:hover {
 
   .stats-row {
     margin-top: -2.8rem;
+  }
+
+  .roster-card-grid {
+    max-width: none;
+  }
+
+  .roster-card-item {
+    flex: 0 0 calc((100% - 20px) / 2);
+    max-width: calc((100% - 20px) / 2);
+  }
+
+  .roster-card {
+    height: 280px;
+  }
+
+  .roster-avatar-wrap .bi-person-fill {
+    font-size: 7.2rem;
+  }
+
+  .roster-jersey-number {
+    font-size: 2.2rem;
+  }
+
+  .roster-player-name {
+    font-size: 0.95rem;
   }
 }

@@ -89,6 +89,34 @@
     return "<span class=\"badge-result badge-result-l\">L / 负</span>";
   }
 
+  function getPositionShortLabel(group, position) {
+    const map = {
+      goalkeeper: "GK",
+      defender: "DF",
+      midfielder: "MF",
+      forward: "FW"
+    };
+
+    if (map[group]) {
+      return map[group];
+    }
+
+    if (position === "门将") {
+      return "GK";
+    }
+    if (position === "后卫") {
+      return "DF";
+    }
+    if (position === "中场") {
+      return "MF";
+    }
+    if (position === "前锋") {
+      return "FW";
+    }
+
+    return "POS";
+  }
+
   // 首页新闻卡片：点击摘要展开详情。
   function initNewsCards() {
     const summaryLinks = document.querySelectorAll(".news-summary-link");
@@ -172,21 +200,25 @@
 
         const cards = groupPlayers.length
           ? groupPlayers.map((player) => `
-              <div class="col-6 col-lg-4">
+              <div class="roster-card-item">
                 <article class="roster-card">
-                  <div class="player-avatar-circle">${getAvatarMarkup(player, "circle")}</div>
-                  <h3 class="player-name fs-5 text-center">${player.name}</h3>
-                  <p class="player-sub text-center"><span class="roster-number">#${player.number}</span> · ${player.position}</p>
-                  <p class="mb-0 small text-center">${player.bio || "[队员简介，待填写]"}</p>
+                  <div class="roster-card-top">
+                    <span class="roster-jersey-number">${player.number}</span>
+                    <div class="roster-avatar-wrap">${getAvatarMarkup(player, "circle")}</div>
+                  </div>
+                  <div class="roster-card-info">
+                    <span class="roster-position-badge">${getPositionShortLabel(player.group, player.position)}</span>
+                    <h3 class="roster-player-name">${player.name}</h3>
+                  </div>
                 </article>
               </div>
             `).join("")
-          : '<div class="col-12"><div class="empty-state">暂无该位置队员信息。</div></div>';
+          : '<div class="empty-state">暂无该位置队员信息。</div>';
 
         return `
           <section class="group-section">
             <h2 class="group-title">${groupTitle}</h2>
-            <div class="row g-3">${cards}</div>
+            <div class="roster-card-grid">${cards}</div>
           </section>
         `;
       }).join("");
