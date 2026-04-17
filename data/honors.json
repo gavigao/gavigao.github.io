@@ -1,0 +1,50 @@
+[
+  {
+    "title": "校级联赛冠军",
+    "year": "2023",
+    "competition": "XX大学校际足球联赛",
+    "type": "team"
+  },
+  {
+    "title": "校级联赛亚军",
+    "year": "2021",
+    "competition": "XX大学校际足球联赛",
+    "type": "team"
+  },
+  {
+    "title": "最佳防守球队",
+    "year": "2022",
+    "competition": "XX大学足球联盟年度评选",
+    "type": "team"
+  },
+  {
+    "title": "体育精神奖",
+    "year": "2021",
+    "competition": "校体育部年度评选",
+    "type": "team"
+  },
+  {
+    "title": "联赛最佳球员",
+    "year": "2023",
+    "season": "2023",
+    "competition": "XX大学校际足球联赛",
+    "player": "张三",
+    "type": "personal"
+  },
+  {
+    "title": "联赛金靴奖",
+    "year": "2023",
+    "season": "2023",
+    "competition": "XX大学校际足球联赛",
+    "player": "周宁",
+    "type": "personal"
+  },
+  {
+    "title": "最佳门将",
+    "year": "2022",
+    "season": "2022",
+    "competition": "XX大学校际足球联赛",
+    "player": "李四",
+    "type": "personal"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "张三",
+    "number": "10",
+    "position": "前锋",
+    "group": "forward",
+    "bio": "队长，技术全面，射门精准。",
+    "avatar": ""
+  },
+  {
+    "id": 2,
+    "name": "李四",
+    "number": "1",
+    "position": "门将",
+    "group": "goalkeeper",
+    "bio": "反应迅速，擅长指挥后防线。",
+    "avatar": ""
+  },
+  {
+    "id": 3,
+    "name": "王五",
+    "number": "4",
+    "position": "后卫",
+    "group": "defender",
+    "bio": "防守稳健，空中对抗能力强。",
+    "avatar": ""
+  },
+  {
+    "id": 4,
+    "name": "赵六",
+    "number": "6",
+    "position": "中场",
+    "group": "midfielder",
+    "bio": "节奏组织者，传球视野开阔。",
+    "avatar": ""
+  },
+  {
+    "id": 5,
+    "name": "陈宇",
+    "number": "9",
+    "position": "前锋",
+    "group": "forward",
+    "bio": "跑位积极，门前把握机会能力强。",
+    "avatar": ""
+  },
+  {
+    "id": 6,
+    "name": "刘洋",
+    "number": "2",
+    "position": "后卫",
+    "group": "defender",
+    "bio": "边路速度快，攻守转换效率高。",
+    "avatar": ""
+  },
+  {
+    "id": 7,
+    "name": "孙浩",
+    "number": "8",
+    "position": "中场",
+    "group": "midfielder",
+    "bio": "拦截积极，二点球处理稳定。",
+    "avatar": ""
+  },
+  {
+    "id": 8,
+    "name": "周宁",
+    "number": "11",
+    "position": "前锋",
+    "group": "forward",
+    "bio": "擅长边路突破，终结能力突出。",
+    "avatar": ""
+  },
+  {
+    "id": 9,
+    "name": "吴凯",
+    "number": "3",
+    "position": "后卫",
+    "group": "defender",
+    "bio": "协防意识好，覆盖范围大。",
+    "avatar": ""
+  },
+  {
+    "id": 10,
+    "name": "郑博",
+    "number": "5",
+    "position": "后卫",
+    "group": "defender",
+    "bio": "对抗强硬，定位球防守可靠。",
+    "avatar": ""
+  },
+  {
+    "id": 11,
+    "name": "徐航",
+    "number": "7",
+    "position": "中场",
+    "group": "midfielder",
+    "bio": "覆盖面积大，具备后插上能力。",
+    "avatar": ""
+  },
+  {
+    "id": 12,
+    "name": "蒋森",
+    "number": "12",
+    "position": "门将",
+    "group": "goalkeeper",
+    "bio": "年轻门将，扑救果断，成长迅速。",
+    "avatar": ""
+  }
+]

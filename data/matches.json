@@ -1,0 +1,152 @@
+[
+  {
+    "date": "2026-04-10",
+    "season": "2026",
+    "competition": "校际联赛",
+    "opponent": "经济学院",
+    "score_us": 3,
+    "score_them": 1,
+    "result": "W",
+    "note": "揭幕战胜利"
+  },
+  {
+    "date": "2026-03-26",
+    "season": "2026",
+    "competition": "友谊赛",
+    "opponent": "信息学院",
+    "score_us": 2,
+    "score_them": 2,
+    "result": "D",
+    "note": "下半场扳平"
+  },
+  {
+    "date": "2026-03-12",
+    "season": "2026",
+    "competition": "热身赛",
+    "opponent": "法学院",
+    "score_us": 1,
+    "score_them": 2,
+    "result": "L",
+    "note": "阵容轮换磨合"
+  },
+  {
+    "date": "2025-11-02",
+    "season": "2025",
+    "competition": "校际联赛",
+    "opponent": "管理学院",
+    "score_us": 2,
+    "score_them": 0,
+    "result": "W",
+    "note": "关键零封"
+  },
+  {
+    "date": "2025-10-15",
+    "season": "2025",
+    "competition": "校际联赛",
+    "opponent": "土木学院",
+    "score_us": 1,
+    "score_them": 1,
+    "result": "D",
+    "note": "客场作战"
+  },
+  {
+    "date": "2025-09-28",
+    "season": "2025",
+    "competition": "校际联赛",
+    "opponent": "外国语学院",
+    "score_us": 4,
+    "score_them": 2,
+    "result": "W",
+    "note": "进攻端表现强势"
+  },
+  {
+    "date": "2024-11-06",
+    "season": "2024",
+    "competition": "校际联赛",
+    "opponent": "机械学院",
+    "score_us": 0,
+    "score_them": 1,
+    "result": "L",
+    "note": "防守压力较大"
+  },
+  {
+    "date": "2024-10-18",
+    "season": "2024",
+    "competition": "校际联赛",
+    "opponent": "艺术学院",
+    "score_us": 3,
+    "score_them": 0,
+    "result": "W",
+    "note": "控球率优势明显"
+  },
+  {
+    "date": "2024-09-30",
+    "season": "2024",
+    "competition": "校际联赛",
+    "opponent": "建筑学院",
+    "score_us": 2,
+    "score_them": 1,
+    "result": "W",
+    "note": "终场前绝杀"
+  },
+  {
+    "date": "2023-11-20",
+    "season": "2023",
+    "competition": "校际联赛决赛",
+    "opponent": "化工学院",
+    "score_us": 2,
+    "score_them": 0,
+    "result": "W",
+    "note": "夺冠之战"
+  },
+  {
+    "date": "2023-10-09",
+    "season": "2023",
+    "competition": "校际联赛",
+    "opponent": "数理学院",
+    "score_us": 1,
+    "score_them": 0,
+    "result": "W",
+    "note": "稳守反击"
+  },
+  {
+    "date": "2023-09-22",
+    "season": "2023",
+    "competition": "校际联赛",
+    "opponent": "医学院",
+    "score_us": 1,
+    "score_them": 1,
+    "result": "D",
+    "note": "高强度对抗"
+  },
+  {
+    "date": "2022-11-12",
+    "season": "2022",
+    "competition": "校际联赛",
+    "opponent": "商学院",
+    "score_us": 0,
+    "score_them": 0,
+    "result": "D",
+    "note": "防守体系成型"
+  },
+  {
+    "date": "2022-10-25",
+    "season": "2022",
+    "competition": "校际联赛",
+    "opponent": "新闻学院",
+    "score_us": 2,
+    "score_them": 3,
+    "result": "L",
+    "note": "惜败强敌"
+  },
+  {
+    "date": "2022-09-17",
+    "season": "2022",
+    "competition": "校际联赛",
+    "opponent": "法学院",
+    "score_us": 1,
+    "score_them": 0,
+    "result": "W",
+    "note": "赛季首胜"
+  }
+]

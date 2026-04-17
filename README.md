@@ -1,4 +1,3 @@
-# gavigao.github.io
 # 政国中统男子足球队官方网站
 
 一个基于 HTML5 + CSS3 + Bootstrap 5 + 原生 JavaScript 的纯静态官网项目，可直接部署到 GitHub Pages，零后端、零数据库、零服务器成本。
